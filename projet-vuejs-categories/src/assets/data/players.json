@@ -1,0 +1,35 @@
+{
+  "name": "PSG",
+  "players": [
+    {
+      "number": "1",
+      "name": "HTML",
+      "position": "Language de Balisage",
+      "health": "available"
+    },
+    {
+      "number": "2",
+      "name": "CSS",
+      "position": "Front",
+      "health": "available"
+    },
+    {
+      "number": "3",
+      "name": "JS",
+      "position": "Front",
+      "health": "available"
+    },
+    {
+      "number": "4",
+      "name": "PHP",
+      "position": "Back",
+      "health": "available"
+    },
+    {
+      "number": "5",
+      "name": "Angular",
+      "position": "Framework",
+      "health": "available"
+    }
+  ]
+}
