@@ -8,6 +8,7 @@
       :is="selectedComponent"
       v-bind="currentProps"
       @update-selection="updateSelection"
+      @delete-selection="deleteSelection"
     >
     </component>
   </keep-alive>
@@ -15,6 +16,7 @@
 </template>
 
 <script>
+
 import PlayerList from './components/PlayerList.vue'
 import SelectionList from './components/SelectionList.vue'
 
@@ -47,9 +49,14 @@ export default {
     },
     updateSelection(player) {
       this.selectionArray.push(player)
+    },
+    deleteSelection(index) {
+      this.selectionArray.splice(index, 1)
     }
   }
 }
+
+
 </script>
 <style>
 
